@@ -22,7 +22,7 @@ public class MyFormatter implements Formatter, Reporter {
 
     private String featureURI;
 
-    private int featureLine;
+    private int lineNumber;
 
     public MyFormatter(Appendable appendable) {
         this.appendable = (FileWriter) appendable;
@@ -39,29 +39,33 @@ public class MyFormatter implements Formatter, Reporter {
 
     public void feature(Feature feature) {
         log("Processing feature: " + featureURI);
-        this.featureLine = feature.getLine();
     }
 
     public void background(Background background) {
     }
 
     public void scenario(Scenario scenario) {
+        log("Processing scenario for feature: " + featureURI);
+        this.lineNumber = scenario.getLine();
     }
 
     public void scenarioOutline(ScenarioOutline scenarioOutline) {
+        log("Processing scenario outline for feature: " + featureURI);
     }
 
     public void examples(Examples examples) {
+        log("Processing examples for feature: " + featureURI);
     }
 
     public void step(Step step) {
+        log("Processing step for feature: " + featureURI);
     }
 
     /**
      * Called when the current feature file has been run.
      */
     public void eof() {
-        log("End of feature: " + featureURI + ":" + featureLine);
+        log("End of feature: " + featureURI);
     }
 
     public void syntaxError(String state, String event, List<String> legalEvents, String uri, int line) {
@@ -110,7 +114,7 @@ public class MyFormatter implements Formatter, Reporter {
     }
 
     private String format() {
-        return featureURI + ":" + featureLine;
+        return featureURI + ":" + lineNumber;
     }
 
     /**
