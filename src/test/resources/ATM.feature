@@ -1,3 +1,4 @@
+@afm
 Feature: Account Holder withdraws cash
 	As an Account Holder
 	I want to withdraw cash from an ATM
