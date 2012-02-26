@@ -1,2 +1,2 @@
-HookSteps
+Run with Ant (need JAR files, classpath, glue settings)
 Re-runs
