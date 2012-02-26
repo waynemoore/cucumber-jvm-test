@@ -2,23 +2,23 @@ package xbridge;
 
 public class Account {
 
-	private int balance;
+    private int balance;
 
-	public Account(int balance) {
-		this.balance = balance;
-	}
+    public Account(int balance) {
+        this.balance = balance;
+    }
 
-	public int getBalance() {
-		return balance;
-	}
+    public int getBalance() {
+        return balance;
+    }
 
-	public int getMoney(int amount) {
-		if (balance < amount)
-			return 0;
+    public int getMoney(int amount) {
+        if (balance < amount)
+            return 0;
 
-		balance = balance - amount;
+        balance = balance - amount;
 
-		return amount;
+        return amount;
 
-	}
+    }
 }

@@ -2,33 +2,33 @@ package xbridge;
 
 public class CreditCard {
 
-private boolean valid = true;
-private boolean inUse = false;
+    private boolean valid = true;
+    private boolean inUse = false;
 
-private final Account account;
+    private final Account account;
 
-public CreditCard(Account account) {
-this.account = account;
-}
+    public CreditCard(Account account) {
+        this.account = account;
+    }
 
-public boolean isValid() {
-return valid;
-}
+    public boolean isValid() {
+        return valid;
+    }
 
-public Account getAccount() {
-return account;
-}
+    public Account getAccount() {
+        return account;
+    }
 
-public void insertCard(){
-inUse = true;
-}
+    public void insertCard() {
+        inUse = true;
+    }
 
-public void returnCard(){
-inUse = false;
-}
+    public void returnCard() {
+        inUse = false;
+    }
 
-public boolean isInUse() {
-return inUse;
-}
+    public boolean isInUse() {
+        return inUse;
+    }
 
 }

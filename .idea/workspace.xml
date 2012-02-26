@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e627543-d8ec-4118-9476-732565a88287" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cucumber-jvm-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cucumber-jvm-test.iml" afterPath="$PROJECT_DIR$/cucumber-jvm-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xbridge/ATM.java" afterPath="$PROJECT_DIR$/src/main/java/xbridge/ATM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xbridge/Account.java" afterPath="$PROJECT_DIR$/src/main/java/xbridge/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xbridge/CreditCard.java" afterPath="$PROJECT_DIR$/src/main/java/xbridge/CreditCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/ATMScenario.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/ATMScenario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/HookSteps.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/HookSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/MyFormatter.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/MyFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/ATM.feature" afterPath="$PROJECT_DIR$/src/test/resources/ATM.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumber.xml" afterPath="$PROJECT_DIR$/src/test/resources/cucumber.xml" />
     </list>
     <ignored path="cucumber-jvm-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,27 +73,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyFormatter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyFormatter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/MyFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="125" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="94" column="12" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.45667124">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ATM.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="87" selection-start="5566" selection-end="5566" vertical-scroll-proportion="0.5034388">
+            <state line="7" column="0" selection-start="207" selection-end="504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditCard.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="26" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
@@ -92,6 +115,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/ATM.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/xbridge/ATMScenario.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/MyFormatter.java" />
       </list>
     </option>
@@ -121,7 +147,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -133,6 +159,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,8 +181,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -245,6 +271,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.Imports" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/cukes" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -264,6 +291,15 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
       </method>
@@ -344,6 +380,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="2e627543-d8ec-4118-9476-732565a88287" name="Default" comment="" />
       <created>1330258274531</created>
       <updated>1330258274531</updated>
     </task>
@@ -351,28 +388,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997844" sideWeight="0.6706349" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -422,98 +459,106 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="147" column="87" selection-start="5566" selection-end="5566" vertical-scroll-proportion="0.21595599">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Feature.class">
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/../Classes/classes.jar!/java/io/Writer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="205" selection-end="205" vertical-scroll-proportion="0.08708273">
-          <folding />
-        </state>
+        <state line="20" column="16" selection-start="761" selection-end="761" vertical-scroll-proportion="0.392022" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Range.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08547009" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/BasicStatement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.08708273">
+        <state line="13" column="38" selection-start="674" selection-end="674" vertical-scroll-proportion="0.26124817" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/Formatter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="122" selection-end="139" vertical-scroll-proportion="0.042735044">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/DescribedStatement.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Step.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="75" selection-start="223" selection-end="223" vertical-scroll-proportion="0.08708273">
+        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08708273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Examples.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08708273">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Background.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="61" selection-start="209" selection-end="209" vertical-scroll-proportion="0.08708273">
+        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08708273">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/TagStatement.class">
+    <entry file="file://$PROJECT_DIR$/target/cukes/rerun.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="0.08708273">
+        <state line="10" column="24" selection-start="358" selection-end="358" vertical-scroll-proportion="0.050894085" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Match.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08547009">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Scenario.class">
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="207" selection-end="207" vertical-scroll-proportion="0.08708273">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/Formatter.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/ATMScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.08547009">
+        <state line="43" column="52" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/../Classes/classes.jar!/java/io/OutputStreamWriter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Result.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.084033616">
+        <state line="19" column="28" selection-start="945" selection-end="945" vertical-scroll-proportion="0.3846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/../Classes/classes.jar!/java/io/FileWriter.class">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="178" selection-end="178" vertical-scroll-proportion="0.082530946">
+        <state line="10" column="26" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="207" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/MyFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="125" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="87" selection-start="5566" selection-end="5566" vertical-scroll-proportion="0.5034388">
+        <state line="94" column="12" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.45667124">
           <folding />
         </state>
       </provider>
