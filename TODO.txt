@@ -1,5 +1,5 @@
 Run with Ant (need JAR files, classpath, glue settings)
-Re-run based on capture
+Re-run based on capture DONE
 Capture failures for re-runs DONE
 Exclusions DONE
 Hooksteps DONE
