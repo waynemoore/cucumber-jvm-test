@@ -30,7 +30,7 @@ public class CucumberRunner {
             final String[] failedFeatures = content.split(" ");
 
             for (String failedFeature : failedFeatures) {
-                System.out.println(failedFeature);
+                System.out.println("****** Failed feature: " + failedFeature);
             }
 
 
