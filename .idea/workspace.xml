@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e627543-d8ec-4118-9476-732565a88287" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" />
     </list>
     <ignored path="cucumber-jvm-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -608,7 +607,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now outputs list of failed features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of how to run all features expected those tagged as @tba via JUnit runner" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -622,6 +621,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Now outputs list of failed features" />
+    <MESSAGE value="Example of how to run all features expected those tagged as @tba via JUnit runner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
