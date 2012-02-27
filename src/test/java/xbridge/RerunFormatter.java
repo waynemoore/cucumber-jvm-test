@@ -114,7 +114,8 @@ public class ReRunFormatter implements Formatter, Reporter {
     }
 
     private String format() {
-        return featureURI + ":" + lineNumber;
+        return featureURI;
+        // return featureURI + ":" + lineNumber;
     }
 
     /**

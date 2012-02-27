@@ -192,13 +192,9 @@
                                 <echo>****** Re-running failed cucumber ******</echo>
                                 <delete dir="target/cukes"/>
                                 <mkdir dir="target/cukes"/>
-                                <java classname="xbridge.CucumberRunner" fork="true" failonerror="true"
+                                <java classname="xbridge.CucumberReRunner" fork="true" failonerror="true"
                                       newenvironment="true"
                                       maxmemory="512m" classpathref="maven.test.classpath">
-                                    <arg value="--format"/>
-                                    <arg value="xbridge.ReRunFormatter"/>
-                                    <arg value="--out"/>
-                                    <arg value="${basedir}/rerun.txt"/>
                                     <arg value="--format"/>
                                     <arg value="pretty"/>
                                     <arg value="--format"/>
@@ -207,14 +203,14 @@
                                     <arg value="target/cukes"/>
                                     <arg value="--glue"/>
                                     <arg value="xbridge"/>
-                                    <arg value="--rerun"/>
-                                    <arg value="${basedir}/rerun.txt"/>
                                     <arg value="--tags"/>
                                     <arg value="~@manual"/>
                                     <arg value="--tags"/>
                                     <arg value="~@wip"/>
                                     <arg value="--tags"/>
                                     <arg value="~@tba"/>
+                                    <arg value="--rerun"/>
+                                    <arg value="${basedir}/rerun.txt"/>
                                     <arg value="${basedir}/src/test/resources"/>
                                 </java>
                             </tasks>
