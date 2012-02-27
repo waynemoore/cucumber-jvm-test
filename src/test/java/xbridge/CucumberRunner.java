@@ -26,7 +26,14 @@ public class CucumberRunner {
 
         try {
             File file = new File(rerunFileLocation);
-            final List<String> lines = FileUtils.readLines(file);
+            final String content = FileUtils.readFileToString(file);
+            final String[] failedFeatures = content.split(" ");
+
+            for (String failedFeature : failedFeatures) {
+                System.out.println(failedFeature);
+            }
+
+
         } catch (IOException e) {
             // if file does not exist use feature path
         }

@@ -151,7 +151,45 @@
                         <phase>integration-test</phase>
                         <configuration>
                             <tasks>
-                                <echo>Running cucumber from the command line</echo>
+                                <echo>****** Running cucumber ******</echo>
+                                <delete dir="target/cukes"/>
+                                <mkdir dir="target/cukes"/>
+                                <java classname="cucumber.cli.Main" fork="true" failonerror="false"
+                                      newenvironment="true"
+                                      maxmemory="512m" classpathref="maven.test.classpath">
+                                    <arg value="--format"/>
+                                    <arg value="xbridge.ReRunFormatter"/>
+                                    <arg value="--out"/>
+                                    <arg value="${basedir}/rerun.txt"/>
+                                    <arg value="--format"/>
+                                    <arg value="pretty"/>
+                                    <arg value="--format"/>
+                                    <arg value="html"/>
+                                    <arg value="--out"/>
+                                    <arg value="target/cukes"/>
+                                    <arg value="--glue"/>
+                                    <arg value="xbridge"/>
+                                    <arg value="--tags"/>
+                                    <arg value="~@manual"/>
+                                    <arg value="--tags"/>
+                                    <arg value="~@wip"/>
+                                    <arg value="--tags"/>
+                                    <arg value="~@tba"/>
+                                    <arg value="${basedir}/src/test/resources"/>
+                                </java>
+                            </tasks>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+
+                    <execution>
+                        <id>rerun-cucumber-integration-test</id>
+                        <phase>integration-test</phase>
+                        <configuration>
+                            <tasks>
+                                <echo>****** Re-running failed cucumber ******</echo>
                                 <delete dir="target/cukes"/>
                                 <mkdir dir="target/cukes"/>
                                 <java classname="xbridge.CucumberRunner" fork="true" failonerror="true"
@@ -160,7 +198,7 @@
                                     <arg value="--format"/>
                                     <arg value="xbridge.ReRunFormatter"/>
                                     <arg value="--out"/>
-                                    <arg value="target/cukes/rerun.txt"/>
+                                    <arg value="${basedir}/rerun.txt"/>
                                     <arg value="--format"/>
                                     <arg value="pretty"/>
                                     <arg value="--format"/>
@@ -170,7 +208,7 @@
                                     <arg value="--glue"/>
                                     <arg value="xbridge"/>
                                     <arg value="--rerun"/>
-                                    <arg value="${basedir}/target/cukes/rerun.txt"/>
+                                    <arg value="${basedir}/rerun.txt"/>
                                     <arg value="--tags"/>
                                     <arg value="~@manual"/>
                                     <arg value="--tags"/>
