@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e627543-d8ec-4118-9476-732565a88287" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/xbridge/CucumberRunner.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/xbridge/TestReRunner.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.txt" afterPath="$PROJECT_DIR$/TODO.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/CucumberRunner.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/CucumberRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature" afterPath="$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature" />
     </list>
     <ignored path="cucumber-jvm-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,16 +68,45 @@
       <file leaf-file-name="CucumberRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/CucumberRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+            <state line="19" column="44" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="171" column="53" selection-start="7131" selection-end="7131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ATM.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="228" selection-start="4769" selection-end="4769" vertical-scroll-proportion="0.021520803">
+            <state line="5" column="8" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditCard.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="35" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODO.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODO.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="79" selection-end="79" vertical-scroll-proportion="0.014245015">
               <folding />
             </state>
           </provider>
@@ -98,7 +128,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/ATM.feature" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/ATMScenario.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/MyFormatter.java" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/TestRerunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/RerunFormatter.java" />
@@ -106,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/test/java/xbridge/TestReRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/CucumberRunner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature" />
+        <option value="$PROJECT_DIR$/TODO.txt" />
       </list>
     </option>
   </component>
@@ -360,6 +391,7 @@
     <property name="options.lastSelected" value="preferences.sourceCode.Imports" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/cukes" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -478,7 +510,7 @@
     <frame x="-315" y="-1200" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -547,20 +579,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Match.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08547009">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/model/Result.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08547009">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.9.0/gherkin-2.9.0.jar!/gherkin/formatter/Reporter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="43" selection-start="219" selection-end="219" vertical-scroll-proportion="0.12820514">
@@ -613,20 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="153" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/HookSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="20" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
@@ -648,16 +652,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/../Classes/classes.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="262" column="40" selection-start="12353" selection-end="12353" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/CucumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="19" column="44" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="228" selection-start="4769" selection-end="4769" vertical-scroll-proportion="0.021520803">
+        <state line="171" column="53" selection-start="7131" selection-end="7131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tests/CreditCard.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="79" selection-end="79" vertical-scroll-proportion="0.014245015">
           <folding />
         </state>
       </provider>

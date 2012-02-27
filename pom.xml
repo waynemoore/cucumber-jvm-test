@@ -162,6 +162,14 @@
                                     <arg value="target/cukes"/>
                                     <arg value="--glue"/>
                                     <arg value="xbridge"/>
+                                    <arg value="--rerun"/>
+                                    <arg value="${basedir}/target/cukes/rerun.txt"/>
+                                    <arg value="--tags"/>
+                                    <arg value="~@manual"/>
+                                    <arg value="--tags"/>
+                                    <arg value="~@wip"/>
+                                    <arg value="--tags"/>
+                                    <arg value="~@tba"/>
                                     <arg value="${basedir}/src/test/resources"/>
                                 </java>
                             </tasks>

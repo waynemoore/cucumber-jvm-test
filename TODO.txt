@@ -1,2 +1,6 @@
 Run with Ant (need JAR files, classpath, glue settings)
-Re-runs
+Re-run based on capture
+Capture failures for re-runs DONE
+Exclusions DONE
+Hooksteps DONE
+Autowiring DONE
