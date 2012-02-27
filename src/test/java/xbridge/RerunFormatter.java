@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-public class MyFormatter implements Formatter, Reporter {
+public class ReRunFormatter implements Formatter, Reporter {
 
     private FileWriter appendable;
 
@@ -24,7 +24,7 @@ public class MyFormatter implements Formatter, Reporter {
 
     private int lineNumber;
 
-    public MyFormatter(Appendable appendable) {
+    public ReRunFormatter(Appendable appendable) {
         this.appendable = (FileWriter) appendable;
     }
 

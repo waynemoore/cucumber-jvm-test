@@ -151,7 +151,7 @@
                                 <java classname="cucumber.cli.Main" fork="true" failonerror="true" newenvironment="true"
                                       maxmemory="512m" classpathref="maven.test.classpath">
                                     <arg value="--format"/>
-                                    <arg value="xbridge.MyFormatter"/>
+                                    <arg value="xbridge.ReRunFormatter"/>
                                     <arg value="--out"/>
                                     <arg value="target/cukes/rerun.txt"/>
                                     <arg value="--format"/>
