@@ -5,7 +5,7 @@ import cucumber.junit.Feature;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@Feature(value = "ATM.feature")
+@Feature(value = ".", tags = "~@tba")
 public class ATMTest {
 
 

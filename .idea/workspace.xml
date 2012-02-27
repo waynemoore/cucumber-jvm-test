@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e627543-d8ec-4118-9476-732565a88287" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" afterPath="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" />
     </list>
     <ignored path="cucumber-jvm-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +62,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CucumberReRunner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CucumberReRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/CucumberReRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="30" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.5270655">
+            <state line="37" column="30" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +94,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="34" selection-start="7749" selection-end="7754" vertical-scroll-proportion="0.0">
+            <state line="131" column="117" selection-start="4937" selection-end="4937" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ATMTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="175" selection-end="175" vertical-scroll-proportion="0.10760402">
               <folding />
             </state>
           </provider>
@@ -125,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/test/java/xbridge/CucumberReRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/ATMScenario.java" />
         <option value="$PROJECT_DIR$/src/test/java/xbridge/ReRunFormatter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java" />
       </list>
     </option>
   </component>
@@ -549,7 +560,7 @@
     <frame x="-315" y="-1200" width="1920" height="1200" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -562,7 +573,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977018" sideWeight="0.67005545" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.67005545" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -686,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="139" selection-end="139" vertical-scroll-proportion="0.05698006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/ATM.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="60" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
@@ -714,19 +718,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/CucumberReRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="30" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="34" selection-start="7749" selection-end="7754" vertical-scroll-proportion="0.0">
+        <state line="131" column="117" selection-start="4937" selection-end="4937" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/CucumberReRunner.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.0.0.RC16/cucumber-junit-1.0.0.RC16.jar!/cucumber/junit/Feature.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.5270655">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="7" column="18" selection-start="305" selection-end="305" vertical-scroll-proportion="0.087548636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/xbridge/ATMTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="175" selection-end="175" vertical-scroll-proportion="0.10760402">
+          <folding />
         </state>
       </provider>
     </entry>
