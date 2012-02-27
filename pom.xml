@@ -15,6 +15,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.1</version>
+        </dependency>
+
         <!-- JUnit -->
         <dependency>
             <groupId>junit</groupId>
@@ -148,7 +154,8 @@
                                 <echo>Running cucumber from the command line</echo>
                                 <delete dir="target/cukes"/>
                                 <mkdir dir="target/cukes"/>
-                                <java classname="xbridge.CucumberRunner" fork="true" failonerror="true" newenvironment="true"
+                                <java classname="xbridge.CucumberRunner" fork="true" failonerror="true"
+                                      newenvironment="true"
                                       maxmemory="512m" classpathref="maven.test.classpath">
                                     <arg value="--format"/>
                                     <arg value="xbridge.ReRunFormatter"/>

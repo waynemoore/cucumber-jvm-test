@@ -1,7 +1,10 @@
 package xbridge;
 
 import cucumber.cli.Main;
+import org.apache.commons.io.FileUtils;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,12 +16,19 @@ public class CucumberRunner {
 
         final List<String> args = new ArrayList<String>(asList(argv));
 
-        String rerunFileLocation;
+        String rerunFileLocation = null;
         for (int i = 0; i < args.size(); i++) {
             String arg = args.get(i);
             if ("--rerun".equals(arg)) {
                 rerunFileLocation = args.get(i + 1);
             }
+        }
+
+        try {
+            File file = new File(rerunFileLocation);
+            final List<String> lines = FileUtils.readLines(file);
+        } catch (IOException e) {
+            // if file does not exist use feature path
         }
 
         for (String arg : args) {
